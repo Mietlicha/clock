@@ -1,13 +1,17 @@
-body{
-    background: rgb(34,193,195);
-    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(140,168,7,1) 100%);
-    color: #fff;
-    height: 100vh;
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    111.36820033167237deg,
+    rgba(148, 198, 81, 1) 4.927083333333334%,
+    rgba(147, 189, 216, 1) 97.84374999999999%
+  );
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#watch{
-    position: absolute;
-    top: 15%;
-    right: 15%;
-    font-size: 5rem;
+#watch {
+  font-size: 5rem;
 }
